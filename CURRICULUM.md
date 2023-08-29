@@ -200,40 +200,9 @@ Tufte, & R, E. (2001). The Visual Display of Quantitative Information (2nd editi
 
 ---
 
-### Lesson 11: Just a Machine the Learns - Introduction to Machine Learning and AI ###
+### Lesson 11: Supervised Machine Learning 1 ###
 
-__Time__ Monday, November 27 , 0800-1000 (1200 w. café)   
-__Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
-
-Machine learning is an approach to programming that use data and learning systems to train algorithms (instead of specifying discrete steps in a programming space). This lesson is predominantly theoretical and will explain learning methods in machine learning as well as challenges such as black-box models and parity issues.
-
-Try a (artificial) neural network at [TensorFlow Playground](http://playground.tensorflow.org/)
-
-#### Coding Café ####
-
-Discussion of individual assignment.
-
-##### Reading
-
-Read either the conceptual or formal introduction, and read the bias in AI:
-
-__Conceptual Introduction__
-
-Nielbo, K. L., Nichols, R., & Slingerland, E. (2017). [Mining the Past – Data-Intensive Knowledge Discovery in the Study of Historical Textual Traditions](). Journal of Cognitive Historiography, 3(1–2), 93–118. 
-
-__Formal Introduction__
-
-Raschka, S. (2017). [Naive Bayes and Text Classification I - Introduction and Theory](). ArXiv:1410.5329 [Cs].
-
-__Bias in AI__
-
-Mattu, J. A., Jeff Larson,Lauren Kirchner,Surya. (2016). [Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing). ProPublica.
-
----
-
-### Lesson 12: Supervised Machine Learning 1 ###
-
-__Time__ Monday, December 4, 0800-1000 (1200 w. café)
+__Time__ Monday, November 27, 0800-1000 (1200 w. café)
 __Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
 
 #### Coding Café: Assignment 5
@@ -245,3 +214,18 @@ In this coding café, we will work on [assignment 5]().
 #### Assignment 5 ####
 
 * [assignment 5](): Horoscopes and Happiness classification
+
+---
+
+### Lesson 12: Supervised Machine Learning 2 ###
+
+__Time__ Monday, December 4, 0800-1000 (1200 w. café)
+__Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
+
+#### Coding Café
+
+Discussion of individual assignment
+
+##### Reading
+
+---
