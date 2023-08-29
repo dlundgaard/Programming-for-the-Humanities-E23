@@ -1,6 +1,6 @@
 # PftH23 Curriculum #
 
-## Lessons 1-13 of PfhH23 ##
+## Lessons 1-12 of PfhH23 ##
 
 Each lesson consists of two elements:
 
