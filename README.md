@@ -39,7 +39,7 @@ This repository has the following directory structure:
 ├── LICENSE.md
 ├── README.md
 ├── slides # slides from class in pdf
-└── src # py code snippets
+└── src # code snippets
 ```
 
 ## Course overview and readings
