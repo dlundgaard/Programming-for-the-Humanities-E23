@@ -1,4 +1,4 @@
-# Execercises 01: Basic Python #
+# Exercises 01: Basic Python #
 
 ## Pair programming ##
 
