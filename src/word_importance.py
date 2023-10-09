@@ -3,8 +3,8 @@ Basic functions for information retrieval - word frequencies, vector space model
 
 
 Author: KLN, 
-Date: 2022.09.23
-Course: PftH 2022, Aarhus University, Arts
+Date: 2023.09.09
+Course: PftH 2023, Aarhus University, Arts
 """
 import operator
 from numpy import dot
