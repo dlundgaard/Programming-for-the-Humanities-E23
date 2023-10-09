@@ -130,4 +130,4 @@ texts = df['horoscope-clean'].loc[idxs].values
 
 ## Problem 3: Document similarity ##
 
-Generate a document-term matrix from the horoscope data and extract $n$ documents, where $n > 5$. Compute the similarity between all extracted documents and, in natural langauge, explain the extrema (the similarity between the two least and two most similar documents).
+Generate a document-term matrix from the horoscope data and extract $n$ documents, where $n > 5$. Compute the similarity between all extracted documents and, in natural langauge, explain the extrema (the similarity between the two least and two most similar documents). You can find the necessary functionality in `word_importance.py` [HERE](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/blob/main/src/word_importance.py).
