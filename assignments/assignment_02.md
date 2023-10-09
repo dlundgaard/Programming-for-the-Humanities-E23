@@ -1,17 +1,17 @@
 # Assignment 2: Word Importance #
 
-In this assignement you have to work with `horoscope.csv` in order to learn how to identify important words (keywords and concepts) in a data set. The assignment will require you to combine your basic understanding of programming with python (control flow, functions, lists) with a string manipulation task inspired by information retrieval. You only have to solve two out of three problems, but if you feel up to it, go for all three.
+In this assignment you have to work with `horoscope.csv` in order to learn how to identify important words (keywords and concepts) in a data set. The assignment will require you to combine your basic understanding of programming with python (control flow, functions, lists) with a string manipulation task inspired by information retrieval. You only have to solve two out of three problems, but if you feel up to it, go for all three.
 
 You can download the `horoscope.csv` file [HERE](https://raw.githubusercontent.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/main/dat/horoscopes.csv).
 
 ## Format ##
 
-For your assignment you should submit a separate report in Markdown combined with py scripts for your code.
+For your assignment, you should submit a separate report in Markdown combined with py scripts for your code.
 
 
 ### Submission ###
 
-Again, two options a) text report in pdf accompanied by Python scripts OR b) markdown with text and Python code blocks. __Please remember to hand in individual assignments even though you have developed you solution in a group__. The final exam, that is, your portfolio, should reflect your individual solution. Submit through Brightspace (either files or link to a public GitHub repository).
+Again, two options a) Python scripts OR b) markdown with text and Python scripts. __Please remember to hand in individual assignments even though you have developed you solution in a group__. The final exam, that is, your portfolio, should reflect your individual solution. Submit through Brightspace (either files or link to a public GitHub repository).
 
 ## Prerequisites ##
 
