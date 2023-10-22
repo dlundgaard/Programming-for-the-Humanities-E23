@@ -103,7 +103,7 @@ In this coding café, we will work on [assignment 2]().
 
 ---
 
-### Lesson 6: Formats for Representing Structured Data (CSV and JSONS)
+### Lesson 6: Formats for Representing Structured Data (CSV and JSON)
 
 __Time__ Monday, October 23, 0800-1000 (1200 w. café)
 __Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
