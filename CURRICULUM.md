@@ -122,13 +122,10 @@ S
 
 ### Lesson 7: Web Scraping
 
-__Time__ Monday, November 13, 0800-1000 (1200 w. café)
+__Time__ Monday, October 30, 0800-1000 (1200 w. café)
 __Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
 
-TBA
-#### Coding Café
 
-TBA
 ##### Reading
 
 * Sweigart 2019, chp 12: [Web Scraping](https://automatetheboringstuff.com/2e/chapter12/)
@@ -137,7 +134,7 @@ TBA
 
 ### Lesson 8: Classes and Object-Oriented Programming ###
 
-__Time__ Monday, October 30, 0800-1000 (1200 w. café)
+__Time__ Monday, November 6, 0800-1000 (1200 w. café)
 __Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
 
 Object oriented programming (OOP) is a programming paradigm used to structure a program into bundles of related properties and behaviors into individual objects. Python classes provide all the standard features of OOP (inheritance mechanism, derived classes that override methods of base class, method call of base class). This lesson will teach you how to use OOP in Python to write a strategic code base that can be used and re-used across multiple projects.
@@ -156,7 +153,7 @@ In this coding café, you will solve [modelling challenges]() about OOP in group
 
 ### Lesson 9: Classes and Object-Oriented Programming ###
 
-__Time__ Monday, November 6, 0800-1000 (1200 w. café)
+__Time__ Monday, November 13, 0800-1000 (1200 w. café)
 __Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
 
 Object oriented programming (OOP) is a programming paradigm used to structure a program into bundles of related properties and behaviors into individual objects. Python classes provide all the standard features of OOP (inheritance mechanism, derived classes that override methods of base class, method call of base class). This lesson will teach you how to use OOP in Python to write a strategic code base that can be used and re-used across multiple projects.
