@@ -118,10 +118,24 @@ S
 
 * Sweigart 2019, chp 16: [Working with CSV files and JSON data](https://automatetheboringstuff.com/2e/chapter16/)
 
+---
+
+### Lesson 7: Web Scraping
+
+__Time__ Monday, November 13, 0800-1000 (1200 w. café)
+__Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
+
+TBA
+#### Coding Café
+
+TBA
+##### Reading
+
+* Sweigart 2019, chp 12: [Web Scraping](https://automatetheboringstuff.com/2e/chapter12/)
 
 ---
 
-### Lesson 7: Classes and Object-Oriented Programming ###
+### Lesson 8: Classes and Object-Oriented Programming ###
 
 __Time__ Monday, October 30, 0800-1000 (1200 w. café)
 __Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
@@ -140,7 +154,7 @@ In this coding café, you will solve [modelling challenges]() about OOP in group
 
 ---
 
-### Lesson 8: Classes and Object-Oriented Programming ###
+### Lesson 9: Classes and Object-Oriented Programming ###
 
 __Time__ Monday, November 6, 0800-1000 (1200 w. café)
 __Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
@@ -158,21 +172,6 @@ In this coding café, we will work on [assignment 3]().
 ##### Assignment 3 #####
 
 * [Assignment 3](): Class design and implementation
-
----
-
-### Lesson 9: Web Scraping
-
-__Time__ Monday, November 13, 0800-1000 (1200 w. café)
-__Location__ room 114B in building [5008](https://www.au.dk/om/organisation/find-au/bygningskort/?b=5008).
-
-TBA
-#### Coding Café
-
-TBA
-##### Reading
-
-* Sweigart 2019, chp 12: [Web Scraping](https://automatetheboringstuff.com/2e/chapter12/)
 
 ---
 
