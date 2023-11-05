@@ -20,9 +20,9 @@ Run in interactive mode with `i` flag
 
 ```sh
 $ python -i class_intro.py
->>> kln = Person('Kristoffer L. Nielbo', age=44, sex="male")
+>>> kln = Person('Kristoffer L. Nielbo', age=45, sex="male")
 >>> print(f'{kln.name} is a {kln.sex} specimen of {kln.age} years')
-Kristoffer L. Nielbo is a male specimen of 44 years
+Kristoffer L. Nielbo is a male specimen of 45 years
 ```
 
 Let us add some behavior, start with 'get()' functionality to produce surname
@@ -61,7 +61,7 @@ and run from terminal
 
 ```sh
 $ python -i class_intro.py
->>> kln = Person('Kristoffer L. Nielbo', age=44, sex="male")
+>>> kln = Person('Kristoffer L. Nielbo', age=45, sex="male")
 >>> print(f'Mr. {kln.getSurname()} was born in {kln.getBirthyear()}')
 Mr. Nielbo was born in 1977
 ```
@@ -95,7 +95,7 @@ and test in terminal, setting our subject's mood to 'happy'
 
 ```sh
 $ python -i class_intro.py
->>> kln = Person('Kristoffer L. Nielbo', age=44, sex="male")
+>>> kln = Person('Kristoffer L. Nielbo', age=45, sex="male")
 >>> kln.setMood(happy=True)
 Kristoffer: I have no regrets over past mistakes
 ```
@@ -141,7 +141,7 @@ After having change the printable representational string
 
 ```sh
 $ python -i class_intro.py
->>> kln = Person('Kristoffer L. Nielbo', age=44, sex="male")
+>>> kln = Person('Kristoffer L. Nielbo', age=45, sex="male")
 >>> print(kln)
 [Person: Kristoffer L. Nielbo, 44, male]
 ```
@@ -191,7 +191,7 @@ Now let us give instantiate our test subject and give him a bonus of 1 squishy.
 $ python -i class_intro.py
 >>> kln = Researcher(
 ...         name='Kristoffer L. Nielbo',
-...         age=44, sex="male",
+...         age=45, sex="male",
 ...         areas=['culture analytics', 'humanities computing']
 ...         )
 >>> kln.giveBonus(1)
@@ -215,7 +215,7 @@ And finally we can instantiate the test subject as a principal investigator, giv
 $ python -i class_intro.py
 kln = PrincipalInvestigator(
         name='Kristoffer L. Nielbo',
-        age=44, sex="male",
+        age=45, sex="male",
         areas=['culture analytics', 'humanities computing']
         )
 >>> kln.giveBonus(1)
