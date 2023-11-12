@@ -1,20 +1,6 @@
 # Assignment 3: Object Oriented Design and Programming in Python 3 #
 
-In this assignment you have to use your knowledge of Object-Oriented Design and Object-Oriented Programming to solve the three problems in Python. The assignment has three intergrated problems and you have to _solve all three_ (not just two).
-
-## Format ##
-
-For your assignment you should either submit aa separate report (pdf) combined with `.py' scripts for your code _OR_ in a markdown file with code blocks (similar to our [lessons](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E22/tree/main/lesson)). If you submit a markdown file do not turn it into a pdf.
-
-An example of a markdown code block
-
-```py
-print('This is a Python code block')
-```
-
-### Submission ###
-
-Again, two options a) text report in pdf accompanied by Python scripts OR b) markdown with text and Python code blocks. __Please remember to hand in individual assignments even though you have developed you solution in a group__.
+In this assignment, you have to use your knowledge of Object-Oriented Design and Object-Oriented Programming to solve the three problems in Python. The assignment has three intergrated problems, and you have to _solve all three_ (not just two).
 
 ## Problem 1: Object-Oriented Design ##
 
@@ -28,11 +14,11 @@ Start with (object-oriented) analysis, e.g., identify the objects and tasks that
 
 ### Object-Oriented Design ###
 
-Convert you OOA into a design of your object templates (classes) using UML. The result of this stage is an implementation specification in UML that can be implemented as a set of classes in Python. Use your knowledge of Python as an inspiration for your visual formalization. Remember that in Python we use _method_ to implement behavior and _attributes_ for data. Methods are functions attached to objects and attributes are variables similarly attacted to objects, a 'BA student', for instance, may have the attribute `enrollment_year: datetime` and method `study(duration: int, intensity: str)`. Use the [slides](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E22/blob/main/slides/slides_07.pdf) from our OOD as a reference.
+Convert you OOA into a design of your object templates (classes) using UML. The result of this stage is an implementation specification in UML that can be implemented as a set of classes in Python. Use your knowledge of Python as an inspiration for your visual formalization. Remember that in Python we use _method_ to implement behavior and _attributes_ for data. Methods are functions attached to objects and attributes are variables similarly attacted to objects, a 'BA student', for instance, may have the attribute `enrollment_year: datetime` and method `study(duration: int, intensity: str)`. Use the [slides](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/blob/main/slides/lesson-08-slides.pdf) from our OOD as a reference.
 
 ## Problem 2: Object-Oriented Programming ##
 
-In this problem, you have to implement your object template design from problem 1, using the `class` keyword. The class keyword is used to create a class. A class is like an object constructor. Use our [class implementation](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E22/blob/main/lesson/lesson_08.md) lesson as a reference.
+In this problem, you have to implement your object template design from problem 1, using the `class` keyword. The class keyword is used to create a class. A class is like an object constructor. Use our [class implementation](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/blob/main/lessons/lesson_09.md) lesson as a reference.
 
 ## Problem 3: Instantiate Class using an Entry Point Function ##
 
