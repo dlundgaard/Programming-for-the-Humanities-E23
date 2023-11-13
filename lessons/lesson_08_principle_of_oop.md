@@ -41,8 +41,8 @@ class Animal:
 
 class Dog(Animal):
 
-    def __init__(self):
-        super().init
+    def __init__(self, name):
+        super(Dog, self).__init__(name)
 
     def bark(self):
         print("woof!")
@@ -73,7 +73,7 @@ oscar.get_size()  #=> I'm a big fish
 
 # change the size
 bert = Fish()
-bert.__size = "small"
+bert._size = "small"
 bert.get_size() #=> I'm a big fish
 
 # using setter method
@@ -97,14 +97,15 @@ class Animal:
 
 class Turtle(Animal):
 
-    def __init__(self):
-        super().init
+    def __init__(self, name):
+        super(Turtle, self).__init__(name)
+        #super().init
 
     def run(self):
         print("running slowly!")
 
 
-# we get back an interesting response
+# we get an interesting response back
 tim = Turtle("tim") #=> tim was adopted.
 tim.run() #=> running slowly!
 ```
