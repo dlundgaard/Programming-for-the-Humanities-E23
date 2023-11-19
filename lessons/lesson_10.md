@@ -337,7 +337,7 @@ Create a heatmap of the correlations between all attributes in our dataframe
 
 ```py
 import seaborn as sns
-corr = df.corr()
+corr = df.corr(numeric_only=True)# we only want to correlate numeric attributes
 ax = plt.figure(figsize=(12,10), dpi=300)
 sns.heatmap(corr,annot=True,xticklabels=corr.columns.values,yticklabels=corr.columns.values)
 plt.title("Correlation of Song Attributes",size=15)
