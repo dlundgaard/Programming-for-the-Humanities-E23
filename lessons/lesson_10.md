@@ -1,6 +1,6 @@
 # Lesson 10: Data Visualization #
 
-### Learning outcomes ###
+### Learning outcomes
 
 * Data visulization with Python.
 * Plot simple and multiple graphs in a single figure.
@@ -8,7 +8,7 @@
 
 While tabular data formats are good for storing and manipulating heterogenous 2d data, they do not facilitate a deep understanding of data. Data visualization is a powerful tool to better understand the properties of our data, it allows us to expose patterns, correlations, and trends that cannot be obtained when data is in a table or dataframe, or, as the mathematician Richard Hamming once said, 'the purpose of computing is insight, not numbers,' and data visualization is one of the best ways to develop that insight. With Python we can use several data visualization modules (ex. `matplotlib`, `seaborn`, `plotly`, `bokeh`) to create complex visualizations both for data understanding and communication.
 
-## Ten Rules of Visualization ##
+## Ten Rules of Visualization
 
 1. Know your Audience
 2. Identify your Message
@@ -24,10 +24,17 @@ While tabular data formats are good for storing and manipulating heterogenous 2d
 
 For more examples of the ten rules, See Rougier, N. P., Droettboom, M., & Bourne, P. E. (2014). Ten Simple Rules for Better Figures. PLoS Computational Biology, 10(9), e1003833. https://doi.org/10.1371/journal.pcbi.1003833
 
-### Data-Ink Ratio ###
+### Data-Ink Ratio
 
-<img src="https://render.githubusercontent.com/render/math?math=\text{Data-Ink Ratio}=\Large\frac{\text{Data-Ink}}{\text{Total ink used to print the graphic}}">
 
+
+$$
+\begin{align*}
+\text{Data-Ink Ratio} & = \frac{\text{Data-Ink}}{\text{Total ink used to print graphic}} \\
+& = \text{\footnotesize proportion of the graphic's ink devoted to the non-redundant display of data-information}\\
+& = 1.0 - \text{\small proportion of graphic that can be erased without loss of data-information}
+\end{align*}
+$$
 
 The Data-Ink ratio is a concept introduced by [_Edward Tufte_](https://www.edwardtufte.com/tufte/), a famous American statistician whose work has contributed significantly to designing effective data presentations. In his 1983 book, 'The Visual Display of Quantitative Data', he stated the goal:
 
@@ -39,11 +46,11 @@ The Data-Ink ratio is a concept introduced by [_Edward Tufte_](https://www.edwar
 
 Tufte refers to data-ink as the non-erasable ink used for the presentation of data. If data-ink would be removed from the image, the graphic would lose the content. Non-Data-Ink on the other hand is the ink that does not transport information but it is used for scales, labels and edges. The data-ink ratio is the proportion of Ink that is used to present actual data compared to the total amount of ink (or pixels) used in the entire display. (Ratio of Data-Ink to non-Data-Ink).
 
-## Data visualization with Python and `matplotlib` ##
+## Data visualization with Python and `matplotlib`
 
 Python does not have an official plotting library, but if there was one, it would be `matplotlib`. `matplotlib` is a comprehensive library for creating static, animated, and interactive visualizations in Python. [Here](https://matplotlib.org/cheatsheets/_images/cheatsheets-1.png) is an excellent cheat sheet for `matplotlib` in case your rote learning resources are getting depleted.
 
-### Read and visualize series data ###
+### Read and visualize series data
 
 Start by making a `series_visualization.py` file and read one of the tabular files from `data/` as a `numpy` array.
 
@@ -71,7 +78,7 @@ array([[0., 0., 1., ..., 3., 0., 0.],
 
 We see that the array has 60 objects measured on 40 variables. In this case each object is a person and each variable is a person's daily inflammation rate (over 40 days). In other words, we have a inflammation rate time series and each variable (columns) represent the rate of inflammation at a given day. 
 
-#### Visual inspection of a numpy array ####
+#### Visual inspection of a numpy array
 
 Add simple array visualization to `series_visualization.py` and save the files to your `figures` subdirectory.
 
@@ -136,7 +143,7 @@ plt.savefig('figures/min_value.png')
 plt.close()
 ```
 
-### Grouping plots ###
+### Grouping plots
 
 `Matplotlib` allows you to group multiple plots in a single figure using subplots. With `figure()` you can create a _canvas_ to 'draw' your individual plot on. The parameter `figsize` sets the size of the canvas following the pattern `(width, height)` in inches. We are going to add three plots side by side, so approximately a 3/1 ratio (with an extra inch for y-axis labels). The method `add_subplot()` allows us to add plots to the canvas, it takes three parameters `(nrows, ncols, index)`. We write each subplot to axes variables (`axes1`, `axes2`, `axes3`). With each subplot created, we can modify plot and axis properties using the axes variables. 
 
@@ -169,7 +176,7 @@ plt.savefig('figures/group_plots.png')
 plt.close()
 ```
 
-### Visualize multiple files ###
+### Visualize multiple files
 
 We can use the `glob` library to find all files in a directory that match a pattern.
 
@@ -220,7 +227,7 @@ for filename in filenames:
     plt.close()
 ```
 
-## Data Exploration with `matplotlib` and `seaborn` ##
+## Data Exploration with `matplotlib` and `seaborn`
 
 In this lesson, we explore the [Spotify data setlesson 3](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E22/blob/main/dat/spotify_2017.dat).
 
