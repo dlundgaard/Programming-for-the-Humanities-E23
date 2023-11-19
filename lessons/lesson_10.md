@@ -31,7 +31,7 @@ For more examples of the ten rules, See Rougier, N. P., Droettboom, M., & Bourne
 $$
 \begin{align*}
 \text{Data-Ink Ratio} & = \frac{\text{Data-Ink}}{\text{Total ink used to print graphic}} \\
-& = \text{\footnotesize proportion of the graphic's ink devoted to the non-redundant display of data-information}\\
+& = \text{\small proportion of the graphic's ink devoted to the non-redundant display of data-information}\\
 & = 1.0 - \text{\small proportion of graphic that can be erased without loss of data-information}
 \end{align*}
 $$
