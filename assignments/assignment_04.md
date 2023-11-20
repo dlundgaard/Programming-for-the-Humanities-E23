@@ -3,7 +3,7 @@
 In this assignment you have to use your knowledge of modular programming and visualization in Python. The assignment consists of four problems and you have to solve a minumum of three (feel free to solve all four). For problems 1-3 you should use the series data set available [here](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/tree/main/dat/series). For problem 4 use the World Happiness Survey 2021 [here](https://raw.githubusercontent.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/main/dat/world-happiness-report-2021.dat). By default, the assignments assume that you use `matplotlib`, but if you prefer to use another library that is a fully acceptable solution.
 
 
-## 1. Custom Plotting Function ##
+## 1. Custom Plotting Function OR Class ##
 
 Write a function or a class that can take a (time) series and a filename as input and generates a series visualization that is stored under the filename.
 
