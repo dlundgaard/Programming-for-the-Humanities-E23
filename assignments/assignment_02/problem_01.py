@@ -13,7 +13,9 @@ def generate_wordcloud():
         plt.imshow(cloud, interpolation="bilinear")
         plt.axis("off")
         plt.tight_layout()
-        plt.savefig(f"""wordcloud_{"no_stopwords" if remove_stopwords else "including_stopwords"}.png""", dpi = 200)
+        export_path = f"""wordcloud_{"no_stopwords" if remove_stopwords else "including_stopwords"}.png"""
+        print(f"""[Generating wordcloud {"without" if remove_stopwords else "with"} stopwords] {export_path}""")
+        plt.savefig(export_path, dpi = 200)
 
 if __name__ == "__main__":
     generate_wordcloud()

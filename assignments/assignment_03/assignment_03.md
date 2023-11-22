@@ -1,4 +1,10 @@
+
 # Assignment 3: Object Oriented Design and Programming in Python 3 #
+
+**Programming for the Humanities E23.**
+
+>Daniel Lundgaard 202004134@post.au.dk
+>Individual submission.
 
 In this assignment, you have to use your knowledge of Object-Oriented Design and Object-Oriented Programming to solve the three problems in Python. The assignment has three intergrated problems, and you have to _solve all three_ (not just two).
 
@@ -16,20 +22,16 @@ Start with (object-oriented) analysis, e.g., identify the objects and tasks that
 
 Convert you OOA into a design of your object templates (classes) using UML. The result of this stage is an implementation specification in UML that can be implemented as a set of classes in Python. Use your knowledge of Python as an inspiration for your visual formalization. Remember that in Python we use _method_ to implement behavior and _attributes_ for data. Methods are functions attached to objects and attributes are variables similarly attacted to objects, a 'BA student', for instance, may have the attribute `enrollment_year: datetime` and method `study(duration: int, intensity: str)`. Use the [slides](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/blob/main/slides/lesson-08-slides.pdf) from our OOD as a reference.
 
+![UML Diagram](Problem_01.svg)
+
 ## Problem 2: Object-Oriented Programming ##
 
 In this problem, you have to implement your object template design from problem 1, using the `class` keyword. The class keyword is used to create a class. A class is like an object constructor. Use our [class implementation](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E23/blob/main/lessons/lesson_09.md) lesson as a reference.
+
+**[Proposed solution](./problem_02.py)**
 
 ## Problem 3: Instantiate Class using an Entry Point Function ##
 
 Instantiate your class (create an object) and show what it can do in an entry point function `main()`. The `main()` function is conventionally the entry point, where a Python program starts its execution. It enables high-level organization of the program's functionality, and typically has access to the command arguments given to the program when it was executed. Remember to use the `__main__` special name for the top-level environment of the program or import your class into another driver script.
 
-ex. 
-
-```py
-def main():
-    myclass.name = 'Kristoffer'
-
-if __name__ == '__main__':
-    main()
-```
+**[Proposed solution](./problem_03.py)**

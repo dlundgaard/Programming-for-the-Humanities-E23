@@ -1,4 +1,4 @@
-# Linux vs Windows Commands #
+# Linux vs Windows Commands
 
 Most of us think that Linux has terminal and we can use a command-line interface only in Linux but it is just a myth. There is a PowerShell and a command prompt in windows as well where we may execute the commands easily. But Windows and Linux have commands with the same name as well.
 
