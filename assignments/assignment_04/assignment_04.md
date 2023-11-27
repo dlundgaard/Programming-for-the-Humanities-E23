@@ -30,7 +30,7 @@ In this problem you have to make two plots from at least eight series objects (r
 **[Proposed solution: `time_series_stacking()`](./solution.py)**
 
 ![Stacking](output/series_01_stacking.png)
->Separate plots offers better discrimination within each trajectory, but at the cost of reduced clarity as it relates to the overall pattern of the patient cohort.
+>Separate plots offer better discrimination of the trajectory of each time series, but this comes at the cost of greater difficulty assessing the overall pattern/trajectory of the patient cohort.
 
 ## 4. Pair Plot of World Happiness Survey
 
